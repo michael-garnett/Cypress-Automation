@@ -1,6 +1,8 @@
 describe('Twitter marketing post', () => {
 
-  
+  let emailOrNumb = 'top.gamer1@yahoo.com';
+  let password = 'Mic_Gar_14'
+  let numb = '2402169897'
 
   it('passes', () => {
     cy.visit('https://twitter.com/')
@@ -15,5 +17,7 @@ describe('Twitter marketing post', () => {
     }
     cy.get('input[name="password"]').type(password)
     cy.contains('Log in').click()
+
+    cy.
   })
 })
