@@ -12,8 +12,11 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
-/// <reference types='Cypress'/>
-/// <reference types='cypress-xpath'/>
+
+<reference types='Cypress'/>
+import * as xpath from '@cypress/xpath';
+xpath.commands();
+
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //
