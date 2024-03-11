@@ -42,7 +42,7 @@ describe("Assertions demo", ()=>{
         cy.get("input[placeholder='Password']").type("admin123")
         cy.get("button[type='submit']").click()
 
-        let expName="Paul Collings";
+        let expName="Paul Collings"
 
         cy.get(".oxd-userdropdown-name").then( (x)=>{
 
